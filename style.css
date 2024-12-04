@@ -1,0 +1,104 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+} */
+
+header.container {
+    display:flex;
+    justify-content: space-between;
+    background-color:white;
+    height: 80px;
+}
+
+
+img {
+    height:80px;
+    width:80px;
+    margin:0px 20px
+}
+
+
+li {
+    list-style: none;
+    margin:20px;  
+}
+
+
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;  
+}
+
+
+ul {
+    display: flex;
+    margin-top: -1px;
+}
+
+
+section.bg-img {
+    background:url(./Images/office-image5.png);
+    width:100%;
+    height:600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+ .title {
+    background-color:rgb(47, 130, 163);
+    color:white;
+    width:500px;
+    font-size: 15px;
+    padding:10px;
+    text-align: center;
+    margin-top: -410px;
+}
+
+
+.button_grp {
+    padding:5px 10px;
+    margin-left: 80px;
+}
+
+
+.first-btn {
+    text-transform: uppercase;
+    position:relative;
+    background-color:transparent;
+    color:black;
+    border-style:double;
+    padding:10px;
+}
+
+
+.first-btn:hover {
+    background-color: black;
+    color:#ddd;
+}
+
+
+.snd-btn {
+    text-transform: uppercase;
+    position:relative;
+    background-color: transparent;
+    color:blueviolet;
+    border-style:double;
+    padding:10px;
+}
+
+
+.snd-btn:hover {
+    background-color:blueviolet;
+    color:#ddd;
+}
+
+
+footer.last-title {
+    font-size: 200px;
+    text-align: center;
+}
